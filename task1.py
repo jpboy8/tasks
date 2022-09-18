@@ -75,11 +75,8 @@
 
 # 2) Write a function sum_numbers that finds the sum of the first n natural numbers. Make your function recursive
 
-# def sum_numbers(n):
-#     sum = 0
-#     for i in range(1, n + 1):
-#         sum += i
-#     return sum
+
+# sum_numbers = lambda n: sum([i for i in range(1, n+1)])
 
 
 # print(sum_numbers(5))
@@ -87,12 +84,7 @@
 
 # 3) Create a function is_triplet that validates whether three given integers form a Pythagorean triplet. The sum of the squares of the two smallest integers must equal the square of the largest number to be validated.
 
+# is_triplet = lambda a,b,c: a**2 + b**2 == c**2
 
-# def is_triplet(a,b,c):
-#     if a**2 + b**2 == c**2:
-#         return True
-#     else:
-#         return False
-
-# print(is_triplet(1,2,3))
+# print(is_triplet(3,4,5))
 
