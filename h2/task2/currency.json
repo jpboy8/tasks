@@ -1,1 +1,158 @@
-{"USD": 477.37, "EUR": 460.38, "RUB": 8.27}
+[
+    {
+        "currency": "AUD",
+        "rate": 305.75
+    },
+    {
+        "currency": "AZN",
+        "rate": 283.16
+    },
+    {
+        "currency": "AMD",
+        "rate": 11.73
+    },
+    {
+        "currency": "BYN",
+        "rate": 190.38
+    },
+    {
+        "currency": "BRL",
+        "rate": 89.12
+    },
+    {
+        "currency": "HUF",
+        "rate": 11.11
+    },
+    {
+        "currency": "HKD",
+        "rate": 61.07
+    },
+    {
+        "currency": "GEL",
+        "rate": 170.91
+    },
+    {
+        "currency": "DKK",
+        "rate": 61.53
+    },
+    {
+        "currency": "AED",
+        "rate": 130.53
+    },
+    {
+        "currency": "USD",
+        "rate": 479.39
+    },
+    {
+        "currency": "EUR",
+        "rate": 457.43
+    },
+    {
+        "currency": "INR",
+        "rate": 5.85
+    },
+    {
+        "currency": "IRR",
+        "rate": 11.4
+    },
+    {
+        "currency": "CAD",
+        "rate": 347.31
+    },
+    {
+        "currency": "CNY",
+        "rate": 66.18
+    },
+    {
+        "currency": "KWD",
+        "rate": 1543.13
+    },
+    {
+        "currency": "KGS",
+        "rate": 5.95
+    },
+    {
+        "currency": "MYR",
+        "rate": 103.58
+    },
+    {
+        "currency": "MXN",
+        "rate": 23.35
+    },
+    {
+        "currency": "MDL",
+        "rate": 24.65
+    },
+    {
+        "currency": "NOK",
+        "rate": 43.65
+    },
+    {
+        "currency": "PLN",
+        "rate": 94.96
+    },
+    {
+        "currency": "SAR",
+        "rate": 127.4
+    },
+    {
+        "currency": "RUB",
+        "rate": 8.21
+    },
+    {
+        "currency": "XDR",
+        "rate": 609.73
+    },
+    {
+        "currency": "SGD",
+        "rate": 331.0
+    },
+    {
+        "currency": "TJS",
+        "rate": 48.92
+    },
+    {
+        "currency": "THB",
+        "rate": 12.5
+    },
+    {
+        "currency": "TRY",
+        "rate": 25.89
+    },
+    {
+        "currency": "UZS",
+        "rate": 4.36
+    },
+    {
+        "currency": "UAH",
+        "rate": 13.11
+    },
+    {
+        "currency": "GBP",
+        "rate": 511.8
+    },
+    {
+        "currency": "CZK",
+        "rate": 18.54
+    },
+    {
+        "currency": "SEK",
+        "rate": 41.82
+    },
+    {
+        "currency": "CHF",
+        "rate": 483.01
+    },
+    {
+        "currency": "ZAR",
+        "rate": 26.4
+    },
+    {
+        "currency": "KRW",
+        "rate": 33.26
+    },
+    {
+        "currency": "JPY",
+        "rate": 3.31
+    }
+]

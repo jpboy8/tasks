@@ -10,12 +10,13 @@ class Money:
 
     def to_tenge(self):
         total_money = self.amount * self.number
-
+        count = 0
         with open('currency.json') as file:
             currency = json.load(file)
-            for key, value in currency.items():
-                if key == self.currency.upper():
-                    return total_money * value
+            for i in currency:
+                if i['currency'] == self.currency.upper():
+                    count += 1
+                    return total_money * i['rate']
 
     def __repr__(self):
         return f'\t{self.name}: (number: {self.number}; currency: {self.currency}; amount: {self.amount});\n'
