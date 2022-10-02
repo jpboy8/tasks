@@ -10,12 +10,12 @@ class BankAccount:
     @balance.setter
     def balance(self, value):
         if type(value) not in (int, float) or value < 0:
-            raise ValueError("Значение должно быть инт или дабл и не должно быть меньше нуля")
+            raise ValueError("balance must be integer or float and positive!")
         self.__balance = value
 
     def deposit(self, amount): 
         self.balance += amount
-        return self.__balance
+        return self.balance
 
     def withdraw(self, amount):
         self.balance -= amount
