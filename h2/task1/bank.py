@@ -1,11 +1,21 @@
 class BankAccount:
 
     def __init__(self, balance: int = 0):
-        self.balance = balance
+        self.__balance = balance
+
+    @property
+    def balance(self):
+        return self.__balance
+
+    @balance.setter
+    def balance(self, value):
+        if type(value) not in (int, float) or value < 0:
+            raise ValueError("Значение должно быть инт или дабл и не должно быть меньше нуля")
+        self.__balance = value
 
     def deposit(self, amount): 
         self.balance += amount
-        return self.balance
+        return self.__balance
 
     def withdraw(self, amount):
         self.balance -= amount
